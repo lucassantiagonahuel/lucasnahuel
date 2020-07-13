@@ -15,7 +15,6 @@ class CreatePerfilesTable extends Migration
     {
         Schema::create('perfiles', function (Blueprint $table) {
             $table->id();
-            $table->string('email');
             $table->string('facebook');
             $table->string('instagram');
             $table->string('twitter');

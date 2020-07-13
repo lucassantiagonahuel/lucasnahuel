@@ -16,7 +16,6 @@ class PerfilesSeeder extends Seeder
         $faker = Faker::create('es_ES');
         for ($i = 0; $i < 50; $i++) {
              DB::table('perfiles')->insert(array(
-                'email' => $faker->safeEmail,
                 'facebook'  => $faker->name,
                 'instagram'   => $faker->name,
                 'twitter' => $faker->name,
